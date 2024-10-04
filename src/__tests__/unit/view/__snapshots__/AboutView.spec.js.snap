@@ -1,0 +1,8 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`AboutView.vue > Contrasta Snapshot del HTML 1`] = `
+"<div data-v-d4948df9="">
+  <h1 data-v-d4948df9="">Acerca de nosotros</h1>
+  <p data-v-d4948df9="">Esta es la página de información.</p>
+</div>"
+`;

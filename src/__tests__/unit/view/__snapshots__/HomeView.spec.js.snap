@@ -1,0 +1,7 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`HomeView.vue > Contrasta Snapshot del HTML 1`] = `
+"<div class="home">
+  <div class="posts-view-mock">Mock de PostsView</div>
+</div>"
+`;
