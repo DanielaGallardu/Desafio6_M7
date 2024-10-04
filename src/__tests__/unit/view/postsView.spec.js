@@ -4,7 +4,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 import PostsView from '@/views/PostsView.vue'
 
-// Datos simulados para la lista de post
+// Datos simulados para post
 const postsDummy = [
     { id: 1, name: 'Post 1' },
     { id: 2, name: 'Post 2' },
@@ -40,7 +40,7 @@ describe('PostsView.vue', () => {
     it('Renderiza lista de posts correctamente', async () => {
         const wrapper = mount(PostsView)
 
-        // Actualiza la variable de estado con los datos simulados
+        // Actualiza la variable de estado 
         wrapper.vm.posts = postsDummy
 
         // Espera que el DOM se actualice

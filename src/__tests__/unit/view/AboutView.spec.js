@@ -12,9 +12,6 @@ describe('AboutView.vue', () => {
   })
 
   it('Se muestra la vista About al llegar a través de la ruta', async () => {
-    /**
-     * Definimos configuración base para la prueba
-     */
     const routerPrueba = createRouter({
       history: createWebHistory(),
       routes: [

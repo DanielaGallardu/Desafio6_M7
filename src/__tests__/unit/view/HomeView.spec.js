@@ -2,7 +2,7 @@ import { describe, it, expect } from 'vitest';
 import { mount } from '@vue/test-utils';
 import HomeView from '@/views/HomeView.vue';
 
-// Simulamos el componente PostsView
+// Simulamos el PostsView
 const PostsViewMock = {
   template: '<div class="posts-view-mock">Mock de PostsView</div>',
 };
